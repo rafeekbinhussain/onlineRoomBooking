@@ -1,9 +1,9 @@
-package com.mashreq.online;
+package com.rafeek.online;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"com.mashreq.*"})
+@SpringBootApplication(scanBasePackages = {"com.rafeek.*"})
 public class OnlineApplication {
 
 	public static void main(String[] args) {

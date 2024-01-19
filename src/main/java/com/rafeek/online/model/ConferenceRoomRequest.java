@@ -1,6 +1,6 @@
-package com.mashreq.online.model;
+package com.rafeek.online.model;
 
-import com.mashreq.online.validation.TimeFormat;
+import com.rafeek.online.validation.TimeFormat;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import lombok.Builder;

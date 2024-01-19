@@ -1,4 +1,4 @@
-package com.mashreq.online;
+package com.rafeek.online;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

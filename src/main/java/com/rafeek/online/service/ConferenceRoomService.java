@@ -1,9 +1,9 @@
-package com.mashreq.online.service;
+package com.rafeek.online.service;
 
 import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
-import com.mashreq.online.model.ConferenceRoomRequest;
-import com.mashreq.online.model.ConferenceRoomResponse;
+import com.rafeek.online.model.ConferenceRoomRequest;
+import com.rafeek.online.model.ConferenceRoomResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

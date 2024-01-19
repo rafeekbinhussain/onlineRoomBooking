@@ -1,4 +1,4 @@
-package com.mashreq.online.model;
+package com.rafeek.online.model;
 
 import lombok.Builder;
 import lombok.Getter;

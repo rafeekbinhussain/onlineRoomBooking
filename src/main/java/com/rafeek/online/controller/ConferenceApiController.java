@@ -1,8 +1,8 @@
-package com.mashreq.online.controller;
+package com.rafeek.online.controller;
 
-import com.mashreq.online.model.ConferenceRoomRequest;
-import com.mashreq.online.model.ConferenceRoomResponse;
-import com.mashreq.online.service.ConferenceRoomService;
+import com.rafeek.online.model.ConferenceRoomRequest;
+import com.rafeek.online.model.ConferenceRoomResponse;
+import com.rafeek.online.service.ConferenceRoomService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
