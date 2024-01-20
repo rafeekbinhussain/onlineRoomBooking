@@ -1,14 +1,27 @@
+# Application Configuration
 spring:
-  datasource:
-    url: jdbc:h2:mem:testdb
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:
-  h2:
-    console:
-      enabled: true
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    database-platform: org.hibernate.dialect.H2Dialect
+  application:
+    name: online conference room
+
+# Server Configuration
+server:
+  port: 8080
+
+
+# DataSource Configuration
+spring.datasource:
+  url: jdbc:h2:mem:testdb
+  driver-class-name: org.h2.Driver
+  username: sa
+  password:
+
+# H2 Console Configuration
+spring.h2.console:
+  enabled: true
+
+# JPA Configuration
+spring.jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
+  database-platform: org.hibernate.dialect.H2Dialect

@@ -1,4 +1,4 @@
-package com.rafeek.online;
+package com.conference.online;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

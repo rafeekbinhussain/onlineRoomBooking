@@ -1,8 +1,6 @@
-package com.rafeek.online.validation;
+package com.conference.online.validation;
 
 import jakarta.validation.Constraint;
-import jakarta.validation.ConstraintValidator;
-import jakarta.validation.ConstraintValidatorContext;
 import jakarta.validation.Payload;
 import jakarta.validation.constraints.NotNull;
 
@@ -23,18 +21,3 @@ public @interface TimeFormat {
     Class<? extends Payload>[] payload() default {};
 }
 
-class TimeFormatValidator implements ConstraintValidator<TimeFormat, String> {
-    @Override
-    public void initialize(TimeFormat constraintAnnotation) {
-        // No initialization needed
-    }
-
-    @Override
-    public boolean isValid(String value, ConstraintValidatorContext context) {
-        if (value == null) {
-            return true; // Null values are handled by @NotNull annotation
-        }
-
-        return value.matches("^([01]?[0-9]|2[0-3]):[0-5][0-9]$");
-    }
-}
